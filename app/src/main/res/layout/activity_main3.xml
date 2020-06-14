@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="TUGAS SMS"
+        android:textSize="28sp" />
+    <TextView android:textSize="14sp"
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sms Masuk disini" />
+
+    <Button
+        android:id="@+id/actionSmsBackground"
+        android:layout_width="match_parent"
+
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="#CE645858"
+        android:backgroundTint="#CE645858"
+        android:text="SMS Background"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/actionLewatApps"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+
+        android:background="#CE645858"
+        android:backgroundTint="#CE645858"
+        android:text="SMS Open App"
+        android:textColor="#ffffff"></Button>
+</LinearLayout>
